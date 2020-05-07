@@ -44,6 +44,11 @@ permalink: /
     <a href='{{ site.baseurl }}{{ video.url }}'>
       <h3>{{ video.title }}</h3>
       <time>{{ video.date | date: '%d %B %Y'}}</time>
+      {% if video.tags != empty %}
+        {% for tag in video.tags %}
+          Tagged: <a class="codinfox-tag-mark" href="/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;&nbsp;
+        {% endfor %}
+      {% endif %}
       <img src='http://img.youtube.com/vi/{{ video.youtube_id }}/hqdefault.jpg' />
     </a>
   </li>
