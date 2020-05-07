@@ -2,6 +2,7 @@
 title: The Fifth Element - Azure Secure Devops
 youtube_id: wLbxqQCCplI
 date: 2020-03-31
+category: dev
 tags: [VACD, Azure, DevOps]
 ---
 

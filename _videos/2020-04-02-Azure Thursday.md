@@ -2,6 +2,7 @@
 title: Azure Thursday - 2 April 2020
 youtube_id: -ufu7w_71ec
 date: 2020-04-02
+category: dev
 tags: [Azure Thursday, Azure]
 ---
 
