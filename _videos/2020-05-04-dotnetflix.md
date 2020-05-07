@@ -1,6 +1,6 @@
 ---
 title: How to secure your Azure App Services
-youtube_id: Wt7MHFbGAnI
+youtube_id: vE0kzJTPtMA
 date: 2020-05-04
 category: dev
 tags: [Dotnetflix, Azure, Appservice]
