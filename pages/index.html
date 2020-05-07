@@ -46,10 +46,11 @@ permalink: /
       <h3>{{ video.title }}</h3>
       <time>{{ video.date | date: '%d %B %Y'}}</time>
       {% if video.tags != empty %}
-        <time>Tagged: </time>
+        <time>Tagged: 
         {% for tag in video.tags %}
-          <time>{{ tag }}</time>&nbsp;&nbsp;
+          {{ tag }}&nbsp;&nbsp;
         {% endfor %}
+        </time>
       {% endif %}
       <img src='http://img.youtube.com/vi/{{ video.youtube_id }}/hqdefault.jpg' />
     </a>
