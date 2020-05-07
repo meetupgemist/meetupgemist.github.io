@@ -13,7 +13,7 @@ permalink: /videos/
     </a>
     {% if video.tags != empty %}
       {% for tag in video.tags %}
-        Tagged: <a class="codinfox-tag-mark" href="/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;&nbsp;
+        <a class="codinfox-tag-mark" href="/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;&nbsp;
       {% endfor %}
     {% endif %}
   </li>
