@@ -12,9 +12,8 @@ permalink: /videos/
       <img src='http://img.youtube.com/vi/{{ video.youtube_id }}/hqdefault.jpg' />
     </a>
     {% if video.tags != empty %}
-      |
       {% for tag in video.tags %}
-        <a class="codinfox-tag-mark" href="/videos/tag/#{{ tag | slugify }}">{{ tag }}</a>
+        <a class="codinfox-tag-mark" href="/videos/tag/#{{ tag | slugify }}">{{ tag }}</a>,
       {% endfor %}
     {% endif %}
   </li>
