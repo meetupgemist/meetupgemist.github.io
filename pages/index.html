@@ -31,7 +31,7 @@ permalink: /
     <div class="content">
     <p>
     {% for tag in tags %}
-    <a href="#{{ tag | slugify }}" class="codinfox-tag-mark"> {{ tag }} </a> &nbsp;&nbsp;
+    <a href="/tag/#{{ tag | slugify }}" class="codinfox-tag-mark"> {{ tag }} </a> &nbsp;&nbsp;
     {% endfor %}
     </p>
    </div> 
