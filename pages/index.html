@@ -46,6 +46,7 @@ permalink: /
       <h3>{{ video.title }}</h3>
       <time>{{ video.date | date: '%d %B %Y'}}</time>
       {% if video.tags != empty %}
+        <small>Tagged: </small>
         {% for tag in video.tags %}
           <small>{{ tag }}</small>&nbsp;&nbsp;
         {% endfor %}
