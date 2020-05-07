@@ -30,7 +30,7 @@ Here we generate all the categories.
 {% endfor %}
 
 <h1 class="page-title">
-  <a href="/Videos">Videos</a> | {{ page.title }}
+  <a href="/videos">Videos</a> | {{ page.title }}
 </h1>
 <br/>
 
@@ -54,7 +54,7 @@ Here we generate all the categories.
         <small>{{ post.date | date_to_string }}</small>
       </a>
       {% for tag in post.tags %}
-      <a class="codinfox-tag-mark" href="/videos/tag/#{{ tag | slugify }}">{{ tag }}</a>
+      <a class="codinfox-tag-mark" href="/tag/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}
     </h3>
   </li>
@@ -74,7 +74,7 @@ Here we generate all the categories.
         <small>{{ post.date | date_to_string }}</small>
       </a>
       {% for tag in post.tags %}
-      <a class="codinfox-tag-mark" href="videos/tag/#{{ tag | slugify }}">{{ tag }}</a>
+      <a class="codinfox-tag-mark" href="/tag/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}
     </h3>
   </li>
