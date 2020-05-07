@@ -6,6 +6,10 @@ permalink: /
 <header>
   <img src='{{ site.baseurl }}/assets/img/logo.png' />
   <nav role='navigation'>
+{% for tag in tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
+
   </nav>
 </header>
 
