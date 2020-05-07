@@ -48,7 +48,7 @@ Here we generate all the tags.
   {% for post in site.videos %}
   {% if post.tags contains tag %}
   <li>
-    <h3>
+    <div class="content">
       <a href="{{ post.url }}">	
 		<time>{{ video.date | date: '%d %B %Y'}}</time>
 		<img src='http://img.youtube.com/vi/{{ video.youtube_id }}/hqdefault.jpg' />
@@ -58,7 +58,7 @@ Here we generate all the tags.
       {% for tag in post.tags %}
       <small><a class="codinfox-tag-mark" href="/tag/#{{ tag | slugify }}">{{ tag }}</a></small>
       {% endfor %}
-    </h3>
+    </content>
   </li>
   {% endif %}
   {% endfor %}
