@@ -49,7 +49,9 @@ Here we generate all the tags.
   <li>
     <h3>
       <a href="{{ post.url }}">
-        {{ post.title }}
+		{{ post.title }}
+		<time>{{ video.date | date: '%d %B %Y'}}</time>
+		<img src='http://img.youtube.com/vi/{{ video.youtube_id }}/hqdefault.jpg' />
         <small>{{ post.date | date_to_string }}</small>
       </a>
       {% for tag in post.tags %}
