@@ -9,7 +9,7 @@ Please feel invited to submit session or meetup recordings. Currently there is a
 ### Submit, delete or change video
 
 Please go ahead and do a PR.
-All sessions are listed in _videos. Each file contains one reference to a YouTube video.
+All sessions are listed in [_videos](_videos). Each file contains one reference to a YouTube video.
 
 ### Filename
 
