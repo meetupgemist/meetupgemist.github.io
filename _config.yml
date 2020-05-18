@@ -1,6 +1,6 @@
 name: Meetup Gemist 
 description: Meetup gemist is your single source for watching meetups. 
-url: 'http://meetupgemist.nl'
+url: 'https://meetupgemist.nl'
 baseurl: '/'
 email: mail@meetupgemist.nl
 twitter: https://twitter.com/meetupgemist
